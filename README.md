@@ -1,5 +1,6 @@
-# A modification of the KNN Algorithm used in solar weather forecasting
+# A modification of the KNN Algorithm used in Solar Weather Forecasting
 
+How to use
  - Install anaconda python
  - Open an anaconda terminal
  - move to the file location of the program (cd <name of file folder> example cd Desktop)
