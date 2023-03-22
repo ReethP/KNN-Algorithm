@@ -237,10 +237,6 @@ def main():
 		if(entry.year == original_copy[closest_day.index+1].year and entry.month == original_copy[closest_day.index+1].month and entry.day == original_copy[closest_day.index+1].day and day_found == 0):
 			output_file.write(header1+"\n")
 			output_file.write(header2+"\n")
-			entry_string = str(list(entry)[3:])
-			entry_string = entry_string.strip("[")
-			entry_string = entry_string.strip("]")
-			output_file.write( entry_string +"\n")
 			day_found += 1
 			counter+=1
 		if day_found == 1:
